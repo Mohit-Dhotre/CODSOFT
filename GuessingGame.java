@@ -12,7 +12,7 @@ public class GuessingGame {
 		do {
 			Scanner SC = new Scanner(System.in);
 			Random R = new Random();
-			int numberToGuess = R.nextInt(9) + 1;
+			int numberToGuess = R.nextInt(100) + 1;
 			System.out.println("!!.......................................................!!");
 			System.out.println("!!                                                       !!");
 			System.out.println("!!.......    Codesoft Task 1 - Number Game       ........!!");
